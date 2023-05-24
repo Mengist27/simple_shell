@@ -22,8 +22,7 @@
 /*It is used for write/read buffers */
 #define WRITE_BUF_SIZE 1024
 #define READ_BUF_SIZE 1024
-#define BUF_FLUSH -1
-
+#define BUF_FLUSH '\0'
 /*uses for converting numbers () */
 #define CMD_NORM	0
 #define CMD_OR		1
