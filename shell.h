@@ -1,5 +1,7 @@
 #ifndef _SHELL_H_
 #define _SHELL_H_
+#define CONVERT_UNSIGNED (1 << 0)
+#define CONVERT_LOWERCASE (1 << 1)
 
 #include <stdio.h>
 #include <dirent.h>
